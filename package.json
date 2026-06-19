@@ -1,0 +1,10 @@
+{
+  "name": "notes-management-system",
+  "version": "1.0.0",
+  "description": "Notes Management System root runner",
+  "scripts": {
+    "dev": "node dev.js",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  }
+}
