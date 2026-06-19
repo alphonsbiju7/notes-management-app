@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://elevatenotes-backend.onrender.com"
+      "destination": "https://elevatenotes-backend.onrender.com/api/$1"
     },
     {
       "source": "/(.*)",
